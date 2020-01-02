@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruin.mybatis.mapper.CstLinkmanMapper">
+  <resultMap id="BaseResultMap" type="com.ruin.mybatis.model.CstLinkman">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="lkm_id" jdbcType="BIGINT" property="lkmId" />
+    <result column="lkm_email" jdbcType="VARCHAR" property="lkmEmail" />
+    <result column="lkm_gender" jdbcType="VARCHAR" property="lkmGender" />
+    <result column="lkm_memo" jdbcType="VARCHAR" property="lkmMemo" />
+    <result column="lkm_mobile" jdbcType="VARCHAR" property="lkmMobile" />
+    <result column="lkm_name" jdbcType="VARCHAR" property="lkmName" />
+    <result column="lkm_phone" jdbcType="VARCHAR" property="lkmPhone" />
+    <result column="lkm_position" jdbcType="VARCHAR" property="lkmPosition" />
+    <result column="lkm_cust_id" jdbcType="BIGINT" property="lkmCustId" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruin.mybatis.mapper.CstCustomerMapper">
+  <resultMap id="BaseResultMap" type="com.ruin.mybatis.model.CstCustomer">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="cust_id" jdbcType="BIGINT" property="custId" />
+    <result column="cust_name" jdbcType="VARCHAR" property="custName" />
+    <result column="cust_source" jdbcType="VARCHAR" property="custSource" />
+    <result column="cust_industry" jdbcType="VARCHAR" property="custIndustry" />
+    <result column="cust_level" jdbcType="VARCHAR" property="custLevel" />
+    <result column="cust_phone" jdbcType="VARCHAR" property="custPhone" />
+    <result column="cust_mobile" jdbcType="VARCHAR" property="custMobile" />
+  </resultMap>
+</mapper>
